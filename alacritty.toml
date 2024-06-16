@@ -1,0 +1,22 @@
+# themes from https://github.com/alacritty/alacritty-theme
+
+# import = ["/Users/mischa/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/catppuccin.toml"]
+
+[font]
+size = 20
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+[window]
+opacity = 0.9
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark" # "Dark"
+
+[terminal]
+osc52="CopyPaste"
+
