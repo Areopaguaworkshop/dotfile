@@ -109,7 +109,6 @@ source $ZSH/oh-my-zsh.sh
 alias cd="z"
 alias ls="exa"
 alias nv="nvim"
-alias lvi="lvim"
 alias lg="lazygit"
 alias lzd="lazydocker"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
