@@ -1,0 +1,27 @@
+# themes from https://github.com/alacritty/alacritty-theme
+
+# import = ["/Users/mischa/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/catppuccin.toml"]
+
+[font]
+size = 20
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+[window]
+opacity = 0.8
+
+decorations = "Full"
+decorations_theme_variant = "Light" # "Dark"
+blur = true
+startup_mode = "Maximized"
+title = "mac1"
+
+[selection]
+save_to_clipboard = true
+
+[terminal]
+osc52="CopyPaste"
+
+
+
