@@ -4,6 +4,8 @@
 ---@type ChadrcConfig
 local M = {}
 
+M.mappings = require "mappings"
+
 M.ui = {
 	theme = "onedark",
 
