@@ -4,6 +4,8 @@ require "nvchad.mappings"
 
 local map = vim.keymap.set
 
+vim.keymap.set("n", "<space>fc", ":Telescope file_browser  path=%:p:h select_buffer=true<CR>")
+
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
