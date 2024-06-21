@@ -73,6 +73,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.bashrc
 
 # User configuration
 
@@ -109,4 +110,26 @@ alias nv="nvim"
 alias lg="lazygit"
 
 eval "$(zoxide init zsh)"
+
+
+eval $(thefuck --alias)
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/Ajia/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/Ajia/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/Users/Ajia/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/Ajia/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+if [ -f "/Users/Ajia/miniforge3/etc/profile.d/mamba.sh" ]; then
+    . "/Users/Ajia/miniforge3/etc/profile.d/mamba.sh"
+fi
+# <<< conda initialize <<<
 
