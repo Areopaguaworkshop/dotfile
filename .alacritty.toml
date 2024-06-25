@@ -19,7 +19,7 @@
 import = ["/home/drew/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
 # import = [
 # "~/.config/alacritty/base16-dark.toml",
-# "~/.config/alacritty/keybindings.toml",
+# "~/.config/alacritty/keybindings.toml"/,
 # ]
 
 # live_config_reload = true | false
@@ -93,7 +93,7 @@ args = ["-l"]
 
 # Window decorations.
 # decorations = "Full" | "None" | "Transparent" | "Buttonless"
-decorations = "Transparent"
+decorations = "Buttonless"
 # Full
 # Borders and title bar.
 
@@ -109,7 +109,7 @@ decorations = "Transparent"
 # Default: "Full"
 
 # Background opacity (works on macOS & KDE Wayland only)
-opacity = 0.8
+opacity = 0.6
 # Background opacity as a floating point number from 0.0 to 1.0. The value 0.0 is completely transparent and 1.0 is opaque.
 # Default: 1.0
 
@@ -162,8 +162,8 @@ title = "mac2"
 # Example:
 
 # [window]
-# padding = { x = 3, y = 3 }
-# dynamic_padding = true
+padding = { x = 15, y = 15 }
+dynamic_padding = true
 # opacity = 0.9
 
 blur = true 
@@ -224,7 +224,7 @@ multiplier = 3
 
 [font]
 normal = { family = "Jetbrainsmono nerd font", style = "Italic" }
-size = 18
+size = 20
 builtin_box_drawing = true 
 
 # COLORS
