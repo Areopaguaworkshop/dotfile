@@ -24,6 +24,8 @@
     pkgs.ffmpegthumbnailer
     pkgs.mdcat
     pkgs.gitleaks
+    pkgs.minikube
+    pkgs.kubectl
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
