@@ -23,6 +23,7 @@
     pkgs.poppler
     pkgs.ffmpegthumbnailer
     pkgs.mdcat
+    pkgs.gitleaks
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
