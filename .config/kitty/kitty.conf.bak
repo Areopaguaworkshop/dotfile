@@ -1072,6 +1072,6 @@ map kitty_mod+n new_os_window_with_cwd
 
 
 # BEGIN_KITTY_THEME
-# Aquarium Dark
+# Tokyo Night Storm
 include current-theme.conf
 # END_KITTY_THEME
