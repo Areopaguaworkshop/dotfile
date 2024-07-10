@@ -126,8 +126,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
 
-export MODULAR_HOME="/home/ajiap/.modular"
-export PATH="/home/ajiap/.modular/pkg/packages.modular.com_max/bin:$PATH"
 export PATH="/home/ajiap/miniconda/bin:$PATH"
 export PATH="/snap/bin:$PATH" 
 
