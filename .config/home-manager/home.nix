@@ -27,6 +27,7 @@
     pkgs.minikube
     pkgs.kubectl
     pkgs.ueberzugpp
+    pkgs.fastfetch
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
