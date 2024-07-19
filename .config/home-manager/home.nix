@@ -28,6 +28,8 @@
     pkgs.kubectl
     pkgs.ueberzugpp
     pkgs.fastfetch
+    pkgs.kitty
+    pkgs.wezterm
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
