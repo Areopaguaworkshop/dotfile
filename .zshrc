@@ -99,21 +99,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cd="z"
 alias ls="eza"
+alias cd="z"
+alias tf="terraform"
 alias nv="nvim"
 alias lg="lazygit"
 alias lzd="lazydocker"
 alias gl="gitleaks"
+alias k="kubectl"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
 
 # Setting for the new UTF-8 terminal support in Lion
 LC_CTYPE=en_US.UTF-8
@@ -151,3 +149,7 @@ export PATH=$PATH:$GOPATH/bin;
 export PATH="$PATH:/home/ajiap/.local/bin"
 eval "$(/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export PATH=/home/ajiap/.pixi/bin:$PATH
+eval "$(pixi completion --shell zsh)"
+source "$HOME/.rye/env"
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
