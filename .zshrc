@@ -107,6 +107,9 @@ alias lg="lazygit"
 alias lzd="lazydocker"
 alias gl="gitleaks"
 alias k="kubectl"
+alias gk="glasskube"
+alias mk="minikube"
+alias wezterm='flatpak run org.wezfurlong.wezterm'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -153,3 +156,4 @@ export PATH=/home/ajiap/.pixi/bin:$PATH
 eval "$(pixi completion --shell zsh)"
 source "$HOME/.rye/env"
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+export PATH="$PATH:/home/ajiap/.modular/bin"
