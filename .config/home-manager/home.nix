@@ -24,10 +24,9 @@
     pkgs.minikube
     pkgs.fastfetch
     pkgs.zoxide
-    pkgs.ibus
     pkgs.vlc
-    pkgs.brave
-    # # Adds the 'hello' command to your environment. It prints a friendly
+    
+# # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
 

@@ -99,17 +99,21 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias .2="../.."
+alias .3="../../.."
+alias .4="../../../.."
 alias ls="eza"
+alias tm="tmux"
+alias ta="tmux a -t"
 alias cd="z"
-alias tf="terraform"
 alias nv="nvim"
 alias lg="lazygit"
 alias lzd="lazydocker"
 alias gl="gitleaks"
-alias k="kubectl"
-alias gk="glasskube"
-alias mk="minikube"
-alias wezterm='flatpak run org.wezfurlong.wezterm'
+alias k="minikube kubectl --"
+alias zj="zellij"
+alias tp="zenith"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -157,3 +161,5 @@ eval "$(pixi completion --shell zsh)"
 source "$HOME/.rye/env"
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
 export PATH="$PATH:/home/ajiap/.modular/bin"
+export PATH=$PATH:/home/ajiap/ai
+
