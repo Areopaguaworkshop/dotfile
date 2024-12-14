@@ -113,9 +113,8 @@ alias gl="gitleaks"
 alias k="minikube kubectl --"
 alias zj="zellij"
 alias tp="zenith"
+alias cht="cht.sh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
@@ -154,7 +153,6 @@ export PATH=$PATH:$GOPATH/bin;
 
 # Created by `pipx` on 2024-05-04 21:15:48
 export PATH="$PATH:/home/ajiap/.local/bin"
-eval "$(/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export PATH=/home/ajiap/.pixi/bin:$PATH
 eval "$(pixi completion --shell zsh)"
