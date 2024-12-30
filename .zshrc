@@ -74,7 +74,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git brew fzf zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.bash_profile
@@ -107,6 +107,7 @@ alias cd="z"
 alias ls="eza"
 alias nv="nvim"
 alias lg="lazygit"
+alias zj="zellij"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -114,3 +115,5 @@ eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source "$HOME/.rye/env"
+source "$HOME/.rye/env"
