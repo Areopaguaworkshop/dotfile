@@ -23,7 +23,6 @@
     pkgs.gitleaks
     pkgs.minikube
     pkgs.fastfetch
-    pkgs.zoxide
     pkgs.vlc
     
 # # Adds the 'hello' command to your environment. It prints a friendly
