@@ -1,6 +1,6 @@
 # logo's ghostty config
 font-family = "JetBrainsMono"
-font-size = 18
+font-size = 20
 adjust-cell-width = -2
 adjust-cell-height = -1
 adjust-underline-thickness = -50%
@@ -8,7 +8,11 @@ adjust-underline-thickness = -50%
 window-padding-x = 12
 window-padding-y = 12
 
-theme = catppuccin-mocha
+# theme = catppuccin-mocha
+
+theme = tokyonight-storm
+
+
 
 
 
