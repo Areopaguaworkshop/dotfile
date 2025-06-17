@@ -107,13 +107,16 @@ alias cd="z"
 alias ls="eza"
 alias nv="nvim"
 alias lg="lazygit"
-alias zj="zellij"
+alias ch="cht.sh"
+alias ta="tmux a -t"
+alias ta="tmux new -t"
+alias pt="presenterm"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source "$HOME/.rye/env"
-source "$HOME/.rye/env"
+eval "$(atuin init zsh)"
