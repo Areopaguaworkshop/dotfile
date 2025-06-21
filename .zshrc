@@ -116,5 +116,6 @@ alias cht="cht.sh"
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+eval "$(atuin init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
